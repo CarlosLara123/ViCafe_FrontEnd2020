@@ -1,0 +1,33 @@
+.page {
+	margin:0;
+	color:#edf3ff;
+	background:#c8c8c8;
+	background:url(../../images/vistamiradoconcepcion.jpg) no-repeat center;
+	background-size: cover;
+	margin-top: -30px;
+	margin-bottom: -30px;
+	padding-top: 20px;
+    padding-bottom: 20px;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+
+.login-wrap{
+	width: 100%;
+	margin:auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width:410px;
+	min-height:410px;
+	padding-left: 0px !important;
+    padding-right: 0px !important;
+	position:relative;
+	background-color: transparent;
+	background-size: cover;
+	box-shadow:0 17px 50px 0;
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:50px 70px 50px 70px;
+}

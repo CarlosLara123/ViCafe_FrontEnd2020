@@ -1,0 +1,171 @@
+.section__{
+    background-color: transparent !important;
+    background-image: url('../../images/primerfestival (1).jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#covicafe {
+    font-family: 'Allura';
+    color: rgba(255, 255, 255, .5);
+    margin-bottom: 30px;
+    margin-top: 100px;;
+}
+
+.Home__miembros{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.Home__noticias{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.actions__home{
+    background-color: #acbf00;
+    border-color: #acbf00;
+    height: 70px;
+    width: 70px;
+    margin:0 5vh 3vh 0;
+    position: fixed;
+    bottom:5px;
+    margin-bottom: 100px;
+    right:5px
+  }
+
+.label-container-member .label-container-post{
+	position:fixed;
+	bottom:48px;
+	right:105px;
+	display:table;
+	visibility: hidden;
+}
+
+.label-text{
+	color:#FFF;
+	background:rgba(51,51,51,0.5);
+	display:table-cell;
+	vertical-align:middle;
+	padding:10px;
+	border-radius:3px;
+}
+
+.label-arrow{
+	display:table-cell;
+	vertical-align:middle;
+	color:#333;
+	opacity:0.5;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#F33;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	z-index:1000;
+	animation: bot-to-top 2s ease-out;
+}
+
+.ul{
+	position:fixed;
+	right:40px;
+	padding-bottom:15px;
+	bottom:80px;
+	z-index:100;
+}
+
+.ul .li{
+	list-style:none;
+	margin-bottom:10px;
+}
+
+.ul .li a{
+	background-color:#F33;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	width:50px;
+	height:50px;
+	display:block;
+}
+
+.ul:hover{
+	visibility:visible!important;
+	opacity:1!important;
+}
+
+
+.my-float{
+    color:#FFF;
+	font-size:20px;
+	margin-top:20px;
+}
+
+.my-float-menu{
+    color:#FFF;
+	font-size:20px;
+	margin-top:15px;
+}
+
+#btn-member:hover + div.label-container-member{
+    visibility: visible;
+    opacity: 1;
+}
+
+#btn-post:hover + div.label-container-post{
+    visibility: visible;
+    opacity: 1;
+}
+
+a#menu-share + .ul{
+  visibility: hidden;
+}
+
+a#menu-share:hover + .ul{
+  visibility: visible;
+  animation: scale-in 0.5s;
+}
+
+a#menu-share i{
+	animation: rotate-in 0.5s;
+}
+
+a#menu-share:hover > i{
+	animation: rotate-out 0.5s;
+}
+
+@keyframes bot-to-top {
+    0%   {bottom:-40px}
+    50%  {bottom:40px}
+}
+
+@keyframes scale-in {
+    from {transform: scale(0);opacity: 0;}
+    to {transform: scale(1);opacity: 1;}
+}
+
+@keyframes rotate-in {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes rotate-out {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+
+a.float:hover{
+    color:#FFF;
+    visibility: visible;
+    opacity: 1;
+}
